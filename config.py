@@ -31,7 +31,7 @@ def db_params(dbname=None):
         dbname=dbname or get("DB_NAME", "studenttrack"),
         user=get("DB_USER", "postgres"),
         password=get("DB_PASSWORD", ""),
-        connect_timeout=5,
+        connect_timeout=20,
         sslmode=get("DB_SSLMODE", "prefer"),   # use "require" for hosted databases (Neon, Supabase)
     )
 
