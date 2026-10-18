@@ -1,0 +1,15 @@
+.env
+.streamlit/secrets.toml
+# Google service-account keys
+*service-account*.json
+*credentials*.json
+client_secret*.json
+# virtual environments & caches
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+# logs
+*.log
